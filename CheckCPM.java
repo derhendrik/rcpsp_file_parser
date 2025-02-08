@@ -2,7 +2,6 @@ import java.io.FileNotFoundException;
 
 public class CheckCPM {
 
-
     public static void main(String[] args) throws FileNotFoundException {
         Project project = new Project();
         project.read_project("LPP_1.rcp");
